@@ -1,0 +1,77 @@
+{
+    "formPath": "violation", 
+    "dataApi": "violation",
+    "deleteRowApi": "violation",
+    "pageName": "violation",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+    "columns": [
+
+        {
+            "field": "ViolationType",
+            "headerText": "Violation Type",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "FeeAmount",
+            "headerText": "Fee Amount",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "PenaltyLevel",
+            "headerText": "Penalty Level",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "PenaltyPoint",
+            "headerText": "Penalty Point",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "PenaltyRound",
+            "headerText": "Penalty Level",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "RegisteredDate",
+            "headerText": "Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "formPath": "vehicle", 
+    "dataApi": "vehicle",
+    "deleteRowApi": "vehicle",
+    "pageName": "vehicle",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+    "image_url": "Setting/image/vehicle/",
+    "hasImage":true,
+    "profile": true,
+    "columns": [
+
+        {
+            "field": "plateNumber",
+            "headerText": "Plate Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "motorNumber",
+            "headerText": "Motor Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "purchasedDate",
+            "headerText": "Purchased Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "chassisNumber",
+            "headerText": "Chassis Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": false,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "manufacturedYear",
+            "headerText": "Manufactured Year",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "capacity",
+            "headerText": "Capacity",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+    ]
+}

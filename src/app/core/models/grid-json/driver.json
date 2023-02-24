@@ -1,0 +1,80 @@
+{
+    "formPath": "driver", 
+    "dataApi": "Driver",
+    "deleteRowApi": "Driver",
+    "pageName": "driver",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+    "image_url": "Setting/image/driver/",
+    "hasImage":true,
+    "profile": true,
+    "columns": [
+
+        {
+            "field": "firstName",
+            "headerText": "First Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "middleName",
+            "headerText": "Middle Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "lastName",
+            "headerText": "Last Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "phoneNumber",
+            "headerText": "Phone Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": false,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "email",
+            "headerText": "Email",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "licenseNumber",
+            "headerText": "License Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "formPath": "accident", 
+    "dataApi": "accident",
+    "deleteRowApi": "accident",
+    "pageName": "accident",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+    "columns": [
+
+        {
+            "field": "address.specificAddress",
+            "headerText": "Address",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "date",
+            "headerText": "Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "NumberOfLossOfLife",
+            "headerText": "Number of loss of life",
+            "textAlign": "left",
+            "width": 150,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "NumberOfLossOfProperty",
+            "headerText": "Number of loss of property",
+            "textAlign": "left",
+            "width": 150,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "NumberOfLossOfMoney",
+            "headerText": "Number of loss of money",
+            "textAlign": "left",
+            "width": 150,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+    ]
+}

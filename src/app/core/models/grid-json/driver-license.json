@@ -1,0 +1,88 @@
+{
+    "formPath": "driver-license", 
+    "dataApi": "DriverLicense",
+    "deleteRowApi": "DriverLicense",
+    "pageName": "driver-license",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+  
+    "columns": [
+        {
+            "field": "driver",
+            "headerText": "Driver",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "type",
+            "headerText": "Type",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "licenseNumber",
+            "headerText": "License Number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "issuedDate",
+            "headerText": "Issued Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "grade",
+            "headerText": "Grade",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "expiryDate",
+            "headerText": "Expiry Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": false,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "status",
+            "headerText": "Status",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+     
+      
+    ]
+}

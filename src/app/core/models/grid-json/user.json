@@ -1,0 +1,71 @@
+{
+    "formPath": "users-and-group/users", 
+    "dataApi": "user",
+    "deleteRowApi": "user/delete",
+    "pageName": "users",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "image_url": "",
+    "profile": true,
+    "showDelete":true,
+    "columns": [
+
+        {
+            "field": "fullName",
+            "headerText": "Full Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "userName",
+            "headerText": "User Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "email",
+            "headerText": "Email",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "userGroupName",
+            "headerText": "Group",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "phoneNumber",
+            "headerText": "Phone number",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+        
+      
+      
+    ]
+}

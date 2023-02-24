@@ -1,0 +1,42 @@
+{
+    "formPath": "lookup", 
+    "dataApi": "lookup",
+    "deleteRowApi": "Lookup",
+    "pageName": "lookup",
+    "grouped": true,
+    "groupBy": ["key"],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+    "image_url": "",
+    "profile": true,
+    "columns": [
+
+        {
+            "field": "key",
+            "headerText": "Lookup Type",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "value",
+            "headerText": "Lookup Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+    ]
+}

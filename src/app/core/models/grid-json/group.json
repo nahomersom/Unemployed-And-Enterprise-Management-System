@@ -1,0 +1,43 @@
+{
+    "formPath": "users-and-group/group", 
+    "dataApi": "UserGroup",
+    "deleteRowApi": "UserGroup",
+    "pageName": "users",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "image_url": "",
+    "profile": true,
+    "showDelete":true,
+    "columns": [
+
+        {
+            "field": "name",
+            "headerText": "Title",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "responsiblity",
+            "headerText": "Responsibility",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+      
+      
+    ]
+}

@@ -1,0 +1,203 @@
+/* body{
+  margin:0;
+} */
+#header-section.main-header {
+    border-bottom: 1px solid #d2d6de;
+    height: 55px;
+    min-height: 55px;
+    max-height: 55px;
+    background: #023435;
+    color: #fff;
+    position: sticky;
+    top:0;
+    z-index: 999;
+  }
+  
+  #header-section .header-style {
+    line-height: 40px;
+    height: 40px;
+    padding: 8px;
+    list-style: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #header-section .border-left {
+    border-left: 1px solid #d2d6de;
+    width: 10em;
+  }
+  
+  #header-section .float-left {
+    float: left;
+  }
+  #header-section .float-right {
+    float: right;
+  }
+  /* start of nav-bar  styles */
+   .navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 4%;
+  
+  }
+  
+  .navbar .search-bar{
+    margin-right: auto;
+    margin-left: 2%;
+    min-width: 30%;
+  }
+  .search-bar .form-group{
+    padding:0 10px;
+    align-self: center;
+    border-color: white;
+  }
+  
+  .search-bar .form-group .form-control {
+    padding-left: 2.375rem;
+    font-size: 13px;
+    background-color: transparent;
+    
+  }
+  .search-bar .form-control::placeholder {
+    color:white;
+    opacity: 0.8;
+   
+  }
+  
+  .search-bar .form-group .form-control-icon {
+    position: absolute;
+    z-index: 2;
+    font-size: small;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    /* color: #aaa; */
+    color: white;
+  }
+  .navbar .profile-icon{
+   
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  text-align: center;
+  justify-self: center;
+  background-color: #7986cb;
+  overflow: hidden;
+  }
+  #avatar{
+    margin:auto;
+    overflow: hidden;
+  }
+  #profile-dropdown{
+    font-size: 14px;
+  }
+  
+  #language-dropdown{
+    background-color: transparent;
+    border: 0.5px solid white;
+    padding : 1.5px 20px;
+    font-size: small;
+  }
+  /* end of nav-bar  styles */
+  /* start of header section styles  */
+  #header-section .icon-menu {
+    width: 40px;
+  }
+  
+  .center {
+    text-align: center;
+    display: none;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  #header-section .header-list,
+  #sidebar-treeview .e-treeview,
+  #sidebar-treeview .e-treeview .e-ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  @media(max-width:800px) {
+  
+    #header-section .support {
+        display: none;
+    }
+  
+    #header-section .nav-pane {
+        width: 75%;
+    }
+  }
+  /* custom code end */
+  /*end of header-section styles */
+  
+  /*main-menu-header  styles */
+  #sidebar-treeview .main-menu .main-menu-header {
+    color: #656a70;
+  padding: 15px;
+  font-size: 14px;
+  width: 13em;
+  margin: 0;
+  }
+  
+  /*end of main-menu-header styles */
+  
+  /* content area styles */
+  .content{
+    padding:15px;
+  }
+  
+  /* end of content area styles */
+  
+  /* side bar styles */
+  
+  .e-sidebar.e-left{
+    top:55px !important;
+  }
+  
+  .e-sidebar{
+    height: 93% !important;
+  }
+  .icon-audiofile::before {
+  font-family:  'Material Icons';
+  content: "audio_file";
+  font-size: 20px;
+
+
+}
+  
+  
+  #sidebar-treeview #main-treeview .e-list-text {
+    padding: 0 14px;
+  }
+  /* side bar scroll style */
+  #sidebar-treeview{
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  }
+  #sidebar-treeview::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+  }
+  /* end of side bar scroll style */
+  
+  /* sidebar collapse styles */
+  .sidebar-dock-icon{
+    margin-right: 22px;
+    float:right;
+    font-size: 1.7em;
+    text-align: center;
+  }
+  
+  .e-list-icon{
+    color:#5f5f5f !important;
+  }
+  /* end of sidebar collabse styles */
+  
+  /* end of sidebar styles */

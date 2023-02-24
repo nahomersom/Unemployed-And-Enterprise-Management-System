@@ -1,0 +1,60 @@
+{
+    "formPath": "penalty-settlement", 
+    "dataApi": "PenaltySettlement",
+    "deleteRowApi": "PenaltySettlement",
+    "pageName": "penalty-settlement",
+    "grouped": false,
+    "groupBy": [],
+    "showSearch": true,
+    "incomingCommand": [],
+    "showCollapseAndExpand": true,
+    "allowToolbar": true,
+    "showExcelExport": true,
+    "showPdfExport": true,
+    "showColumnChooser": true,
+    "showFilter": true,
+    "allowCheckbox": true,
+    "showDelete":true,
+  
+    "columns": [
+        {
+            "field": "date",
+            "headerText": "Date",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+
+        {
+            "field": "institutionName",
+            "headerText": "Institution Name",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "branch",
+            "headerText": "Branch",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        },
+        {
+            "field": "MethodOfSettlement",
+            "headerText": "Method Of Settlement",
+            "textAlign": "left",
+            "width": 80,
+            "visible": true,
+            "asCheckbox": false,
+            "minWidth":"150px"
+        }
+       
+      
+    ]
+}
